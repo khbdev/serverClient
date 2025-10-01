@@ -3,7 +3,8 @@ syntax = "proto3";
 package hello;
 
 
-option go_package = "github.com/azizbek/hello-grpc/proto;hello";
+
+option go_package = "github.com/khbdev/serverClient/proto;hello";
 
 
 service HelloService {
